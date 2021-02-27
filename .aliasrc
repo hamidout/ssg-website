@@ -1,0 +1,2 @@
+generate="rm -f $HOME/.local/web/dst/.files && ssg5 $HOME/.local/web/src $HOME/.local/web/dst 'hamidout' 'http://hamidout.xyz' "
+deploy="rsync -avP --delete $HOME/.local/web/dst/* hamidout.xyz:/var/www/hamidout.xyz"
