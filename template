@@ -1,18 +1,21 @@
 #!/bin/bash
 
 if [[ $# -eq 0 ]]; then
-    echo 'you need a name for your article'
-    exit 0
+    	echo 'you need a name for your article'
+    	exit 0
 fi
 
-if [ -f "$1".md ]; then
+if [ -f $HOME/.local/web/src/"$1".md ]; then
 	echo 'article already exists'
+	exit 0
 fi
 
 echo "# title
 
-###### mmm dd, yyyy
+###### $(date +"%b %d, %y @ %H:%M")
 
 ![photo](pix/photo =600x)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." >> "$1".md
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." >> $HOME/.local/web/src/"$1".md
+
+cd $HOME/.local/web/src
