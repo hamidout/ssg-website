@@ -1,23 +1,26 @@
-<head>
+<!DOCTYPE html>
+<head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <script src="/dark.js"></script>
     <title></title>
 </head>
 
-<body>
+<body class="light-mode">
 
 <nav class="menu">
 <div class="nav-left">
  <ul>
-    <li><a href="/index.html"><img class="logo" src="/favicon.png" alt style="height: 30px;">ceci n'est pas un site web</a></li>
+    <li><a href="/index.html"><img class="logo" src="/favicon.png" alt style="height: 30px;"></a></li>
   </ul>
 </div>
 <div class="nav-right">
  <ul>
+    <li style="padding: 9px"><a id="darkmodetoggle" class="fas fa-moon" onclick="switchTheme()"></a></li>
     <li><a href="mailto:hamid@hamidout.xyz" target="_blank">mail</a></li>
     <li><a href="https://liberapay.com/hamidout/" target="_blank">$</a></li>
     <li><a href="/files/" target="_blank">files</a></li>

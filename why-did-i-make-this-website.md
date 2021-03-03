@@ -1,6 +1,6 @@
 # why did i make this website?
 
-###### dec 26, 2020
+###### Dec 26, 2020
 
 ![old Internet](pix/old-internet.png =600x)
 

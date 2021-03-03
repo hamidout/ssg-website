@@ -1,6 +1,6 @@
 # stuck in traffic? have a sandwich!
 
-###### jan 09, 2021
+###### Jan 09, 2021
 
 ![traffic](pix/stuck.jpg =600x)
 

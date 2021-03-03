@@ -1,6 +1,6 @@
 # join my mumble server 🔫
 
-###### jan 09, 2021
+###### Jan 09, 2021
 
 ![mumble](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Icons_mumble.svg/1200px-Icons_mumble.svg.png =400x)
 

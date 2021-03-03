@@ -1,6 +1,6 @@
 # [darija] "no thanks"
 
-###### jan 18th, 21 @ 01:30 AM
+###### Jan 18th, 21 @ 01:30 AM
 
 ![no](pix/no.jpg =600x)
 
